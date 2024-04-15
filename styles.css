@@ -10,13 +10,13 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
-    max-width: 500px;
+    max-width: 100%;
     overflow: hidden;
 }
 #display{
     width: 100%;
     padding: 20px;
-    font-size: 5rem;
+    font-size: 4em;
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%);
@@ -24,7 +24,7 @@ body{
 }
 #keys{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     gap: 10px;
     padding: 25px;
 }
@@ -36,7 +36,6 @@ button{
     background-color: hsl(0, 0%, 30%);
     color: white;
     font-size: 3rem;
-    font-weight: bold;
     cursor: pointer;
 }
 button:hover{
@@ -44,6 +43,10 @@ button:hover{
 }
 button:active{
     background-color: hsl(0, 0%, 50%);
+}
+.clear-btn{
+    color: black;
+    background-color: hsl(0, 0%, 85%);
 }
 .operator-btn{
     background-color: hsl(35, 100%, 55%);
@@ -53,4 +56,19 @@ button:active{
 }
 .operator-btn:active{
     background-color: hsl(35, 100%, 75%);
+}
+.scientific-btn{
+    font-size: 2vw;
+    background-color: hsl(0, 0%, 20%);
+}
+.scientific-btn:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+.scientific-btn:active{
+    background-color: hsl(0, 0%, 50%);
+}
+.zero-btn{
+    grid-row: 5;
+    grid-column: 7 /span 2;
+    width: 200px;
 }
