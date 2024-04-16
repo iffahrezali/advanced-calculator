@@ -6,6 +6,7 @@ body{
     height: 100vh;
     background-color: hsl(0, 0%, 95%);
 }
+
 #calculator{
     font-family: Arial, Helvetica, sans-serif;
     background-color: hsl(0, 0%, 15%);
@@ -71,4 +72,37 @@ button:active{
     grid-row: 5;
     grid-column: 7 /span 2;
     width: 200px;
+}
+.expand-container {
+    position: relative;
+    right: 0;
+    display: inline-block;
+  }
+
+.expand-text {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    width: max-content;
+    right: 0;
+    padding: 10px;
+}
+.expanded-content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 120px;
+    display: none;
+    position: relative;
+    bottom: 0;
+    padding: 1px;
+}
+.expand-text:hover .expanded-content {
+    display: block;
+}
+
+.credits {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    text-align: right;
 }
