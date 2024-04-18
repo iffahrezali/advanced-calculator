@@ -4,5 +4,3 @@ The calculator is aimed to be used for basic computations such as addition, subt
  * To replace division button "/" with "÷"
  * To add other advanced scientific calculations such as log and exponents.
  * To add a hover-to-text credit on top-right corner.
-
-![696BF74F-150E-4261-9044-11FDF43DEE09](https://github.com/iffahrezali/advanced-calculator/assets/92578072/bcd69ce7-579c-4b85-95fb-93a05045cee5)
